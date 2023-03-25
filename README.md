@@ -73,7 +73,11 @@ location / {
 }
 ```
 
-need create file in setup .env
+
+
+Need create file in .env and copy and add this code snippet here then customize it
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 ```# Auth0 settings
 AUTH0_DOMAIN=phylex.eu.auth0.com
@@ -115,4 +119,4 @@ SERVER_DEFAULT_ALLOCATIONS=1
 #  Attention, write here the given email of the users, so that the user of the admins in the client panel
 # exaplme = example@gamil.com
 # exaplme  ADMIN_USERS=example@gamil.com,example1@gamil.com,example3@gamil.com
-ADMIN_USERS=user,user2,user3```
+ADMIN_USERS=user,user2,user3
